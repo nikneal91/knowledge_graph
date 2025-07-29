@@ -1,0 +1,7 @@
+- An alternative to OneNote or [[notetaking apps]]. Have facility to link different contexts
+- Use / slash and then page reference to create new pages
+-
+-
+-
+- #Learn How to create pages shortcut
+- #Learn How to add checkbox or todo in logseq

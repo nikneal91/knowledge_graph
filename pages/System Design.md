@@ -1,0 +1,12 @@
+## System design [[Interview Preparation]]
+- ### Beginners
+- **URL Shortener** (e.g., bit.ly)
+- **Rate Limiter** (token bucket, leaky bucket)
+- **Pastebin / Gist Clone**
+- **Design Tiny File Storage Service**
+- **Design Notification System** (SMS/Email)
+- **Design a Web Crawler**
+- **Design a Cache System (like Redis)**
+- **Design a Job Scheduler / Cron replacement**
+- **Design API Rate Throttling for per-user limits**
+- **Design a Chat App (1:1 messaging)**
