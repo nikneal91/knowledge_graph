@@ -22,3 +22,12 @@ knowledge_graph/
 ├── logseq/ # Logseq config (settings, themes, plugins)
 └── README.md # This file
 
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/knowledge_graph.git
+cd knowledge_graph
+
