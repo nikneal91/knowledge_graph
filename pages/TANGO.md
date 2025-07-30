@@ -6,3 +6,11 @@
 - IATA Compliance as well as proprietary message handling.
 - Mission critical system with high performance which processes 50,000 movement messages a day.
 - #Learn How to add paragraph in #logSeq
+-
+- {{renderer :kanban_6889d2fc-311e-49c1-a080-27262c63660e}}
+  collapsed:: true
+	- tasks
+		- TODO one
+		- TODO two
+		- TODO three
+		-
