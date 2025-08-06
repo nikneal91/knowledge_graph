@@ -16,10 +16,10 @@
 	- kubectl get deployments
 - #card how to get nodes ?
   card-last-interval:: 4
-  card-repeats:: 1
-  card-ease-factor:: 2.6
-  card-next-schedule:: 2025-08-02T12:09:16.130Z
-  card-last-reviewed:: 2025-07-29T12:09:16.131Z
+  card-repeats:: 2
+  card-ease-factor:: 2.7
+  card-next-schedule:: 2025-08-10T07:51:08.746Z
+  card-last-reviewed:: 2025-08-06T07:51:08.747Z
   card-last-score:: 5
 	- kubectl get nodes
 -

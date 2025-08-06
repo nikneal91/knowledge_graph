@@ -10,7 +10,16 @@
 - {{renderer :kanban_6889d2fc-311e-49c1-a080-27262c63660e}}
   collapsed:: true
 	- tasks
-		- TODO one
-		- TODO two
+		- DOING one
+		  :LOGBOOK:
+		  CLOCK: [2025-07-30 Wed 18:32:42]
+		  :END:
+		- DOING two
+		  :LOGBOOK:
+		  CLOCK: [2025-07-30 Wed 18:32:44]
+		  :END:
 		- TODO three
+		  :LOGBOOK:
+		  CLOCK: [2025-07-30 Wed 18:32:45]--[2025-07-30 Wed 18:32:48] =>  00:00:03
+		  :END:
 		-
