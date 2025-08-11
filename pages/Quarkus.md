@@ -1,8 +1,16 @@
 main:: quarkus
 book:: quarkus for spring developer
-asset::
+course:: [Red hat course](https://rhtapps.redhat.com/promo/course/do078?segment=1)
+parent:: [[java]]
+website:: https://quarkus.io/
 
-- ![Quarkus for spring developer](assets/Quarkus-For-Spring-Developers-Red-Hat.pdf)
-	- These differences make Quarkus an ideal runtime for Java applications
-	  that target modern platforms and architectures, such as microservices architectures, event-driven architectures, serverless, functions-as-a-service, edge computing, and IoT.
-	-
+- A supersonic , subatomic [[Java]] Framework.
+-
+-
+- ---
+- Courses
+	- [[Quarkus Technical Overview]]
+- ---
+- Books
+	- [[Quarkus for spring developer]] #books
+	- ---

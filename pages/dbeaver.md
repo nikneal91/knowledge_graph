@@ -1,2 +1,1 @@
 - An awesome **GUI** tool for database
-- #Learn how to add video into [[logSeq]]

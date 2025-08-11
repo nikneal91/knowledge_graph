@@ -1,4 +1,5 @@
-- **JBang** () is a tool that lets you run Java code like a script — no Maven, no Gradle, no boilerplate needed. It’s perfect for small utilities, demos, learning, and even prototyping microservices.
+### Introduction
+	- **JBang** () is a tool that lets you run Java code like a script — no Maven, no Gradle, no boilerplate needed. It’s perfect for small utilities, demos, learning, and even prototyping microservices.
 - ### 🚀 Why use JBang?
 	- Run Java files like shell scripts: `jbang Hello.java`
 	- No need to set up Maven or Gradle

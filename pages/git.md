@@ -1,3 +1,3 @@
 - A version control distributed system
-- #Learn How to add code in #logSeq
+-
 -

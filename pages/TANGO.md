@@ -5,7 +5,7 @@
 - Multi-customer platform for operational flight data information and distribution within an airline/ airline group/contracted handling agents.
 - IATA Compliance as well as proprietary message handling.
 - Mission critical system with high performance which processes 50,000 movement messages a day.
-- #Learn How to add paragraph in #logSeq
+-
 -
 - {{renderer :kanban_6889d2fc-311e-49c1-a080-27262c63660e}}
   collapsed:: true

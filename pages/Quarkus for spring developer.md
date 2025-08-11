@@ -1,0 +1,2 @@
+- ![Quarkus for Spring Developers](assets/Quarkus-For-Spring-Developers-Red-Hat.pdf)
+-
