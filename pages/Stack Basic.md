@@ -6,32 +6,39 @@
 - 6. Pairwise Consecutive Elements
 - 7. Reverse Array Using Stack
 -
-- ##  Implement stack using array
-- ```
-  class MyStack {
-    private int[] arr;
-    private int top;
-    
-  - public MyStack() {
-        arr = new int[1000];
-        top = -1;
-    }
-  - 
-    public void push(int x) {
-        if ( top ==1000) 
-          System.out.println("Stack Overflow");
-        else 
-           arr[++top]=x;
-    }
-  - 
-    public int pop() {
-        if (top==-1)
-          return -1; // underflow
-        else
-           return arr[top--];
-    }
-  }
-  ```
+- ##  Implement stack using array #card
+  card-last-interval:: 4
+  card-repeats:: 1
+  card-ease-factor:: 2.36
+  card-next-schedule:: 2025-08-22T09:28:52.827Z
+  card-last-reviewed:: 2025-08-18T09:28:52.829Z
+  card-last-score:: 3
+  collapsed:: true
+	- ```
+	  class MyStack {
+	    private int[] arr;
+	    private int top;
+	    
+	  - public MyStack() {
+	        arr = new int[1000];
+	        top = -1;
+	    }
+	  - 
+	    public void push(int x) {
+	        if ( top ==1000) 
+	          System.out.println("Stack Overflow");
+	        else 
+	           arr[++top]=x;
+	    }
+	  - 
+	    public int pop() {
+	        if (top==-1)
+	          return -1; // underflow
+	        else
+	           return arr[top--];
+	    }
+	  }
+	  ```
 - ## Immediate Smaller Element
 - ```
   public void immediateSmaller(int arr[]) {
@@ -46,7 +53,6 @@
             st.push(arr[i]);
             arr[i]=upd;
         }
-        
     }
   ```
 - ## PreOrder Traversal
@@ -140,7 +146,7 @@
     }
   ```
 - ## Reverse array using Stack
-- ```
+- ```java
   void reverseArray(int[] arr) {
         int n = arr.size();
         Stack<Integer> st = new Stack<>();

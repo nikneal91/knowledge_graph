@@ -1,4 +1,4 @@
-type:: course
+material:: course
 main:: quarkus
 
 - ## Need for Quarkus

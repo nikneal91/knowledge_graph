@@ -1,6 +1,6 @@
 ## System design [[Interview Preparation]]
-- ### Beginners
-- **URL Shortener** (e.g., bit.ly)
+- ## Beginners
+- [[**URL Shortener** (e.g., bit.ly)]]
 - **Rate Limiter** (token bucket, leaky bucket)
 - **Pastebin / Gist Clone**
 - **Design Tiny File Storage Service**
