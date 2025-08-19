@@ -7,7 +7,6 @@ version:: java9 onwards
 	- >Venkat Subramaniam dives straight into Java Modules—why they matter and how to migrate, grounded in real-world experience migrating projects from Java 8 to Java 11/12. Here's the raw breakdown:
 - ## **Java Modules Benefits**
 	- **Modularize the JDK itself**
-	  collapsed:: true
 		- Java 8’s `rt.jar` was a massive ~68 MB monolith. Java 9+ broke that into 70–98 clearly separated modules you can include or exclude as needed.
 	- **Enforce real boundaries**
 	  collapsed:: true

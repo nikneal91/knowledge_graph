@@ -1,3 +1,3 @@
-- Kubernetes sections , [[Container]] deployment
+- Kubernetes sections , [[Containers]] deployment
 - Books
-	- [[Kubernetes Patterns]] #k8s #books
+	- [[Book/Kubernetes Patterns]]

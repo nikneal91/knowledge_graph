@@ -1,12 +1,15 @@
+reference:: #Index
+
 - [[DSA]]
 - [[Java]]
 - [[System Design]]
 - [[Kubernetes]]
 - ---
 - [[NeetCode 150]]
--
+- [[LeetCode CheatSheet]]
 - ---
 - ## Arrays
+  collapsed:: true
 	- What is the time complexity of accessing an element in an array? #card
 	  card-last-interval:: 4
 	  card-repeats:: 1

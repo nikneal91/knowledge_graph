@@ -1,3 +1,6 @@
+reference:: #Index 
+website:: https://logseq.com/
+
 - An alternative to OneNote or [[notetaking apps]]. Have facility to link different contexts
 - Use / slash and then page reference to create new pages
 -

@@ -1,4 +1,6 @@
-## System design [[Interview Preparation]]
+reference:: #[[Interview Preparation]]
+
+- ## System design
 - ## Beginners
 - [[**URL Shortener** (e.g., bit.ly)]]
 - **Rate Limiter** (token bucket, leaky bucket)

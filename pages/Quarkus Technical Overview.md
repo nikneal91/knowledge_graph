@@ -1,8 +1,7 @@
 material:: course
-main:: quarkus
+main:: #quarkus
 
 - ## Need for Quarkus
-  collapsed:: true
 	- Java and J2EE application becomes huge and when the containers and k8s comes into the picture the startup time of java application caused developers to shy away from java and use node.js or any other faster framework
 	- To address these issue microprofile and small java footprints gave birth to quarkus which has all the eco-system of java , but still fast , modular and smaller in size to fit the needs of cloud and microservices
 - ## Quarkus Benefits

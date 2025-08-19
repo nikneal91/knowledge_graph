@@ -1,2 +1,2 @@
-- ![Quarkus for Spring Developers](assets/Quarkus-For-Spring-Developers-Red-Hat.pdf)
+- ![Quarkus-For-Spring-Developers-Red-Hat.pdf](../assets/Quarkus-For-Spring-Developers-Red-Hat_1755598595856_0.pdf)
 -

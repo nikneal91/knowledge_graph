@@ -1,1 +1,1 @@
-- An awesome **GUI** tool for database
+- An awesome **GUI** tool for #database
