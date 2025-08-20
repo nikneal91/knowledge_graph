@@ -3,9 +3,9 @@ tags:: #quarkus
 
 - ## ✅  **1. Why Mutiny Exists**
 	- Reactive programming in Java was dominated by **RxJava** and **Reactor**, but they had:
-	- Steep learning curves.
-	- Hard-to-read APIs (lots of `map`, `flatMap`, `subscribe`).
-	- Debugging nightmares.
+		- Steep learning curves.
+		- Hard-to-read APIs (lots of `map`, `flatMap`, `subscribe`).
+		- Debugging nightmares.
 - Mutiny focuses on:
 	- **Fluent, readable APIs** (verbs instead of operators).
 	- **Event-driven design** (think: “what happens when…”).
@@ -42,7 +42,8 @@ tags:: #quarkus
 	  }
 	  
 	  ```
-	- **What happens here?**
-	- `Uni.createFrom().item("Hello Mutiny")` → Creates a Uni with one value.
-	- `onItem().transform(...)` → Transforms the result.
-	- `subscribe().with(...)` → Consumes the Uni with **success** and **failure** handlers.
+		- **What happens here?**
+			- `Uni.createFrom().item("Hello Mutiny")` → Creates a Uni with one value.
+			- `onItem().transform(...)` → Transforms the result.
+			- `subscribe().with(...)` → Consumes the Uni with **success** and **failure** handlers.
+-
