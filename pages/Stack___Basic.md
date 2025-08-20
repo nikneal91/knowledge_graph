@@ -1,3 +1,6 @@
+type:: coding
+tags:: #coding
+
 - 1. Implement stack using array
 - 2. Immediate Smaller Element
 - 3. Preorder Traversal
@@ -13,7 +16,6 @@
   card-next-schedule:: 2025-08-22T09:28:52.827Z
   card-last-reviewed:: 2025-08-18T09:28:52.829Z
   card-last-score:: 3
-  collapsed:: true
 	- ```
 	  class MyStack {
 	    private int[] arr;

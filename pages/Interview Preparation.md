@@ -1,6 +1,6 @@
 reference:: #Index
 
-- [[DSA]]
+- [[Data Structure and Algorithms]]
 - [[Java]]
 - [[System Design]]
 - [[Kubernetes]]

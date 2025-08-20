@@ -1,7 +1,7 @@
 main:: quarkus
 book:: #[[Quarkus for spring developer]] 
 course:: [Red hat course](https://rhtapps.redhat.com/promo/course/do078?segment=1)
-reference::  [[java]]
+tags::  [[java]]
 website:: https://quarkus.io/
 
 - A supersonic , subatomic [[Java]] Framework.
@@ -12,5 +12,7 @@ website:: https://quarkus.io/
 	- [[Course/Quarkus Technical Overview]]
 - ---
 - Books
-	- [[Book / Quarkus for spring developer]] #books
+	- [[Book / Quarkus for spring developer]] 
+	  type:: #book
+	-
 	- ---

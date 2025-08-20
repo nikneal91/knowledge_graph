@@ -1,1 +1,3 @@
+alias:: database
+
 - [[PostgreSQL]]

@@ -1,4 +1,7 @@
-### Data Structure and Algorithm Notes
+alias:: DSA
+tags:: [[Interview Preparation]]
+
+- ### Data Structure and Algorithm Notes
 - [[Stack]]
 - LinkedList
 - Queue

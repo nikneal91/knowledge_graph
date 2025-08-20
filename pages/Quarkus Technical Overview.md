@@ -1,13 +1,12 @@
-material:: course
-main:: #quarkus
+type:: #course
+tags:: #quarkus
 
 - ## Need for Quarkus
 	- Java and J2EE application becomes huge and when the containers and k8s comes into the picture the startup time of java application caused developers to shy away from java and use node.js or any other faster framework
 	- To address these issue microprofile and small java footprints gave birth to quarkus which has all the eco-system of java , but still fast , modular and smaller in size to fit the needs of cloud and microservices
 - ## Quarkus Benefits
-  collapsed:: true
 	- Build Time vs Runtime benefit - offload a lot of things at build time ,hence faster runtime execution and native compilation ability
-	- Unification of imperative and [[reactive programming]] - no need to decide upfront , both reactive programming and imperative programming can co-exists in the same application.
+	- Unification of imperative and [[reactive]] - no need to decide upfront , both reactive programming and imperative programming can co-exists in the same application.
 	- Enhancing Developer Joy
 		- Zero-config live coding
 		- Auto-provision services

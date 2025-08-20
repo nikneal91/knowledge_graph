@@ -1,6 +1,7 @@
 - ![Kubernetes-patterns-2e-Red-Hat-Developer-ebook.pdf](../assets/Kubernetes-patterns-2e-Red-Hat-Developer-ebook_1754633516106_0.pdf)
 	- website:: https://k8spatterns.com/
-	  reference:: #Kubernetes 
+	  tags::  #Kubernetes 
+	  type:: #book 
 	  code:: [Github](https://github.com/k8spatterns)
 - ## Chapter-1 Introduction
 	- ## Where does kubernetes patterns fits in the whole application hierarchy
