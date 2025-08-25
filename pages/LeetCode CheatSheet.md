@@ -185,6 +185,12 @@ tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 		  
 		  ---
 	- **100,000 < n < 1,000,000** #card
+	  card-last-interval:: 4
+	  card-repeats:: 1
+	  card-ease-factor:: 2.36
+	  card-next-schedule:: 2025-08-26T05:57:35.376Z
+	  card-last-reviewed:: 2025-08-22T05:57:35.382Z
+	  card-last-score:: 3
 		- n<=106*n*<=106 is a rare constraint, and will likely require a time complexity of O(n)*O*(*n*). In this range, O(n⋅log⁡n)*O*(*n*⋅log*n*) is usually safe as long as it has a small constant factor. You will very likely need to incorporate a hash map in some way.
 		  
 		  ---

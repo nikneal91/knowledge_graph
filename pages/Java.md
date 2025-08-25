@@ -25,4 +25,7 @@ reference:: #Index
 		          }
 		  }
 		  ```
+		  
+		  location:: [Folder](file:///c:/Users)
+		  filename:: MyClass.java
 			- Use the above line on the top of java program to make it work as a script in linux.

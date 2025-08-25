@@ -6,13 +6,15 @@ website:: https://quarkus.io/
 
 - A supersonic , subatomic [[Java]] Framework.
 -
--
+- ---
+- Coding
+	- [[Code/Quarkus Hibernate Panache]]
 - ---
 - Courses
 	- [[Course/Quarkus Technical Overview]]
 - ---
 - Books
 	- [[Book / Quarkus for spring developer]] 
-	  type:: #book
+	  type:: #Book
 	-
 	- ---

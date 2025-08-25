@@ -1,0 +1,8 @@
+- A simple project practise is done @ [Code with quarkus](file:///C:/Users/nikhilsharma03/Code/code-with-quarkus)
+- open in vscode [Open 📂](vscode://file:///C:/Users/nikhilsharma03/Code/code-with-quarkus)
+	- Created a rest controller
+	- a service
+	- an entity person
+		- tried insert
+		- update
+		- with @Version and learn about hibernate panache

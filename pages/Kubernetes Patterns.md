@@ -1,19 +1,20 @@
 - ![Kubernetes-patterns-2e-Red-Hat-Developer-ebook.pdf](../assets/Kubernetes-patterns-2e-Red-Hat-Developer-ebook_1754633516106_0.pdf)
 	- website:: https://k8spatterns.com/
-	  tags::  #Kubernetes 
-	  type:: #book 
+	  tags::  #Kubernetes #Book 
 	  code:: [Github](https://github.com/k8spatterns)
 - ## Chapter-1 Introduction
-	- ## Where does kubernetes patterns fits in the whole application hierarchy
+  collapsed:: true
+	- ### Where does kubernetes patterns fits in the whole application hierarchy
 	  collapsed:: true
 		- ![image.png](../assets/image_1754633919613_0.png)
-	- ## Main Components
+	- ### Main Components
+	  collapsed:: true
 		- [[Clean Code]]
 		- [[Domain Driven Design]]
 		- [[Hexagonal Architecture]]
 		- [[Microservices Architectural Style - 12 Factor App]]
 		- [[Containers]]
-	- ## Comparision concept vs local primitive vs distributed primitive
+	- ### Comparision concept vs local primitive vs distributed primitive
 	  collapsed:: true
 		- | Concept                          | Local Primitive                                  | Distributed Primitive             |
 		  |----------------------------------|--------------------------------------------------|-----------------------------------|
@@ -32,7 +33,7 @@
 		  | Periodic task                    | Timer, ScheduledExecutorService                  | CronJob                           |
 		  | Background task                  | Daemon thread                                    | DaemonSet                         |
 		  | Configuration management         | System.getenv(), Properties                      | ConfigMap, Secret                 |
-	- ## Common Kubernetes resources
+	- ### Common Kubernetes resources
 	  collapsed:: true
 		- ![image.png](../assets/image_1754634736193_0.png)
 - ## Chapter-2 Foundation Patterns #pending
@@ -41,9 +42,9 @@
 	  applications must comply with in order to become good cloud-native citizens.
 	  Adhering to these principles will help ensure that your applications are suitable for
 	  automation in cloud-native platforms such as Kubernetes.
-	- ## Predictable Demands
-		- ### Runtime Dependency
-			- ## `File Storage`
+	- ### Predictable Demands
+		- #### Runtime Dependency
+			- #### **File Storage**
 			  collapsed:: true
 				- One of the most common runtime dependencies is file storage for saving application
 				  state. Container filesystems are ephemeral and are lost when a container is shut
@@ -67,7 +68,7 @@
 				  	  persistentVolumeClaim:
 				  		claimName: random-generator-log
 				  ```
-			- ## `HostPort`
+			- #### **HostPort**
 			  collapsed:: true
 				- A similar dependency happens when you ask Kubernetes to expose a `container port`
 				  on a specific port on the host system through `hostPort`. The usage of a hostPort
@@ -75,7 +76,7 @@
 				  scheduled. hostPort reserves the port on each node in the cluster and is limited to a
 				  maximum of one Pod scheduled per node. Because of port conflicts, you can scale to
 				  as many Pods as there are nodes in the Kubernetes cluster.
-			- ## `ConfigMaps`
+			- #### **ConfigMaps**
 			  collapsed:: true
 				- Configurations are another type of dependency. Almost every application needs some
 				  configuration information, and the recommended solution offered by Kubernetes is

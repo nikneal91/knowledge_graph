@@ -2,9 +2,8 @@ link:: [Github](https://github.com/iluwatar/java-design-patterns)
 website:: https://java-design-patterns.com/
 
 - ## Creational Design Patterns
-  collapsed:: true
   > Focus: Object creation mechanisms, making system independent of how objects are created.
-	- Singleton – Ensure only one instance exists globally.
+	- [[Singleton]] – Ensure only one instance exists globally.
 	- Factory Method – Create objects without exposing creation logic.
 	- Abstract Factory – Provide an interface to create families of related objects.
 	- Builder – Construct complex objects step-by-step.

@@ -1,0 +1,2 @@
+alias:: book
+title:: Book
