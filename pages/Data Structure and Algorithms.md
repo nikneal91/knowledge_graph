@@ -8,6 +8,8 @@ tags:: [[Interview Preparation]]
 - Graph
 - Trees
 - Arrays
+- [[Tries]]
+-
 -
 - ### Algorithms
 - BFS

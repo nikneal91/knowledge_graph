@@ -4,57 +4,47 @@ icon:: 💻
 tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 
 - ## Cheatsheets
-  collapsed:: true
 	- This article will be a collection of cheat sheets that you can use as you solve problems and prepare for interviews. You will find:
 	- Time complexity (Big O) cheat sheet
 	- General DS/A flowchart (when to use each DS/A)
 	- Stages of an interview cheat sheet
-	  
-	  ---
 - ### Time complexity (Big O) cheat sheet
   
   ![big O chart](https://leetcode.com/explore/interview/card/cheatsheets/720/resources/Figures/DSA/Chapter_11/big_o.png)
   
   First, let's talk about the time complexity of common operations, split by data structure/algorithm. Then, we'll talk about reasonable complexities given input sizes.
 - ## **Arrays (dynamic array/list)**
-  collapsed:: true
 	- Given `n = arr.length`,
-	- Add or remove element at the end: O(1)*O*(1) [amortized](https://stackoverflow.com/questions/33044883/why-is-the-time-complexity-of-pythons-list-append-method-o1)
+	- Add or remove element at the end: O(1) [amortized](https://stackoverflow.com/questions/33044883/why-is-the-time-complexity-of-pythons-list-append-method-o1)
 		- > It's amortized O(1), not O(1).
 		  Let's say the list reserved size is 8 elements and it doubles in size when space runs out. You want to push 50 elements.
 		  The first 8 elements push in O(1). The nineth triggers reallocation and 8 copies, followed by an O(1) push. The next 7 push in O(1). The seventeenth triggers reallocation and 16 copies, followed by an O(1) push. The next 15 push in O(1). The thirty-third triggers reallocation and 32 copies, followed by an O(1) push. The next 31 push in O(1). This continues as the size of list is doubled again at pushing the 65th, 129th, 257th element, etc..
 		  So all of the pushes have O(1) complexity, we had 64 copies at O(1), and 3 reallocations at O(n), with n = 8, 16, and 32. Note that this is a geometric series and asymptotically equals O(n) with n = the final size of the list. That means the whole operation of pushing n objects onto the list is O(n). If we *amortize* that per element, it's O(n)/n = O(1).
-	- Add or remove element from arbitrary index: O(n)*O*(*n*)
-	- Access or modify element at arbitrary index: O(1)*O*(1)
-	- Check if element exists: O(n)*O*(*n*)
-	- Two pointers: O(n⋅k)*O*(*n*⋅*k*), where k*k* is the work done at each iteration, includes sliding window
-	- Building a prefix sum: O(n)*O*(*n*)
-	- Finding the sum of a subarray given a prefix sum: O(1)*O*(1)
-	  
-	  ---
+	- Add or remove element from arbitrary index: O(n)
+	- Access or modify element at arbitrary index: O(1)
+	- Check if element exists: O(n)
+	- Two pointers: O(n⋅k), where k* is the work done at each iteration, includes sliding window
+	- Building a prefix sum: O(n)
+	- Finding the sum of a subarray given a prefix sum: O(1)
 - ## **Strings (immutable)**
   
   Given `n = s.length`,
-	- Add or remove character: O(n)*O*(*n*)
-	- Access element at arbitrary index: O(1)*O*(1)
-	- Concatenation between two strings: O(n+m)*O*(*n*+*m*), where m*m* is the length of the other string
-	- Create substring: O(m)*O*(*m*), where m*m* is the length of the substring
-	- Two pointers: O(n⋅k)*O*(*n*⋅*k*), where k*k* is the work done at each iteration, includes sliding window
-	- Building a string from joining an array, stringbuilder, etc.: O(n)*O*(*n*)
-	  
-	  ---
+	- Add or remove character: O(n)
+	- Access element at arbitrary index: O(1)
+	- Concatenation between two strings: O(n+m), where m* is the length of the other string
+	- Create substring: O(m), where m* is the length of the substring
+	- Two pointers: O(n⋅k), where k* is the work done at each iteration, includes sliding window
+	- Building a string from joining an array, stringbuilder, etc.: O(n)
 - ## **Linked Lists**
   
-  Given n*n* as the number of nodes in the linked list,
-	- Add or remove element given pointer before add/removal location: O(1)*O*(1)
-	- Add or remove element given pointer at add/removal location: O(1)*O*(1) if doubly linked
-	- Add or remove element at arbitrary position without pointer: O(n)*O*(*n*)
-	- Access element at arbitrary position without pointer: O(n)*O*(*n*)
-	- Check if element exists: O(n)*O*(*n*)
-	- Reverse between position `i` and `j`: O(j−i)*O*(*j*−*i*)
-	- Detect a cycle: O(n)*O*(*n*) using fast-slow pointers or hash map
-	  
-	  ---
+  Given  *n* as the number of nodes in the linked list,
+	- Add or remove element given pointer before add/removal location: O(1)
+	- Add or remove element given pointer at add/removal location: O(1) if doubly linked
+	- Add or remove element at arbitrary position without pointer: O(n)
+	- Access element at arbitrary position without pointer: O(n)
+	- Check if element exists: O(n)
+	- Reverse between position `i` and `j`: O(j−i)
+	- Detect a cycle: O(n) using fast-slow pointers or hash map
 - ## **Hash table/dictionary**
   
   Given `n = dic.length`,

@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["logSeq" "query" "LeetCode CheatSheet"]
+ :favorites ["Index" "logSeq" "query" "LeetCode CheatSheet"]
 
  ;; Set flashcards interval.
  ;; Expected value:
@@ -420,7 +420,8 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? false
- :builtin-pages? true}
+ :builtin-pages? true
+ :orphan-pages? false}
  :graph/forcesettings {:link-dist 10
  :charge-strength -1000
  :charge-range 500}}

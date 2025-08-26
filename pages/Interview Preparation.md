@@ -1,4 +1,5 @@
-reference:: #Index
+tags:: #Index 
+alias:: interview
 
 - [[Data Structure and Algorithms]]
 - [[Java]]
@@ -31,9 +32,3 @@ reference:: #Index
 -
 -
 -
-- ---
--
--
-- LATER New agenda plugin practise
-  SCHEDULED: <2025-08-01 Fri>
-  DEADLINE: <2025-08-02 Sat>

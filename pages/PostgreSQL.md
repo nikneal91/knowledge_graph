@@ -1,4 +1,4 @@
-reference:: #database #Index
+tags::  #database #Index
 
 - ```
   | Shortcut     | Description                               |

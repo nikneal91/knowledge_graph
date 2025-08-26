@@ -1,5 +1,6 @@
 website:: https://dev.java/learn/
-reference:: #Index
+tags:: #Index
+icon:: 🍵
 
 - A programming language. Current version in use is Java 21
 - A 30 year old programming language , J2EE is 25 years old now.

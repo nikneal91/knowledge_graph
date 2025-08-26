@@ -5,6 +5,59 @@ website:: https://logseq.com/
 - An alternative to OneNote or [[notetaking apps]]. Have facility to link different contexts
 - Use / slash and then page reference to create new pages
 -
+-
+- ## ✅  **Logseq Properties Cheat Sheet**
+  collapsed:: true
+  
+  Properties in Logseq are added at the top of a block or page in the format:
+  
+  ```
+  property-name:: value
+  ```
+	- ### **Core Properties**
+	  collapsed:: true
+		- | Property | Purpose | Example |
+		  | ---- | ---- | ---- |
+		  | `title` | Defines the page title | `title:: My Project` |
+		  | `alias` | Alternative names for a page | `alias:: Project X, PX` |
+		  | `tags` | Adds tags for organization | `tags:: project, work` |
+		  | `type` | Classifies content type | `type:: book` |
+		  | `id` | Unique identifier for linking | `id:: project-123` |
+		  
+		  ---
+	- ### **Task Management**
+	  collapsed:: true
+		- | Property | Purpose | Example |
+		  | ---- | ---- | ---- |
+		  | `priority` | Task priority (`A`, `B`, `C`) | `priority:: A` |
+		  | `status` | Custom status beyond TODO/DONE | `status:: in-progress` |
+		  | `scheduled` | Start date for a task | `scheduled:: [[2025-08-28]]` |
+		  | `deadline` | Task deadline | `deadline:: [[2025-09-02]]` |
+		  
+		  ---
+	- ### **Time Tracking**
+	  collapsed:: true
+		- | Property | Purpose | Example |
+		  | ---- | ---- | ---- |
+		  | `created` | Date of creation | `created:: [[2025-08-26]]` |
+		  | `updated` | Last modified date | `updated:: [[2025-08-27]]` |
+		  
+		  ---
+	- ### **Knowledge Linking**
+	  collapsed:: true
+		- | Property | Purpose | Example |
+		  | ---- | ---- | ---- |
+		  | `refs` | References to other pages | `refs:: [[Marketing]], [[Strategy]]` |
+		  
+		  ---
+	- ### **Metadata for Notes**
+	  collapsed:: true
+		- | Property | Purpose | Example |
+		  | ---- | ---- | ---- |
+		  | `author` | Author name | `author:: John Doe` |
+		  | `source` | Source link | `source:: https://example.com` |
+		  | `rating` | Rating for content (custom) | `rating:: 5/5` |
+-
 - ---
 - #Learn How to add paragraph in #logSeq
 	- use shift + enter to write in the same block
@@ -14,6 +67,8 @@ website:: https://logseq.com/
 	- just add video url , or use the asset folder then / embed asset
 - #Learn How to create pages shortcut
 	- [[]] to create page , or use / with page reference
+- #Learn  How to see TODO in one page
+	-
 - #Learn How to add checkbox or todo in logseq
 	- Sol: use TODO inbuild in logseq
 - #Learn checking folder structure opening [Open My Folder](file:///C:/Users/)
