@@ -6,8 +6,8 @@ website:: https://logseq.com/
 - Use / slash and then page reference to create new pages
 -
 -
+-
 - ## ✅  **Logseq Properties Cheat Sheet**
-  collapsed:: true
   
   Properties in Logseq are added at the top of a block or page in the format:
   
@@ -15,7 +15,6 @@ website:: https://logseq.com/
   property-name:: value
   ```
 	- ### **Core Properties**
-	  collapsed:: true
 		- | Property | Purpose | Example |
 		  | ---- | ---- | ---- |
 		  | `title` | Defines the page title | `title:: My Project` |
@@ -59,25 +58,33 @@ website:: https://logseq.com/
 		  | `rating` | Rating for content (custom) | `rating:: 5/5` |
 -
 - ---
-- #Learn How to add paragraph in #logSeq
+- #Learn How to add paragraph
+  collapsed:: true
 	- use shift + enter to write in the same block
 	  just like this 
 	  and this
-- #Learn how to add video into [[logSeq]]
+- #Learn how to add video
+  collapsed:: true
 	- just add video url , or use the asset folder then / embed asset
 - #Learn How to create pages shortcut
+  collapsed:: true
 	- [[]] to create page , or use / with page reference
 - #Learn  How to see TODO in one page
-	-
+  collapsed:: true
+	- use ctrl+shift+t shortcut , and a TODO list plugin in required
 - #Learn How to add checkbox or todo in logseq
+  collapsed:: true
 	- Sol: use TODO inbuild in logseq
 - #Learn checking folder structure opening [Open My Folder](file:///C:/Users/)
+  collapsed:: true
 	- ` [Open My Folder](file:///C:/Users/)`
 - #Learn How to open files directly in vscode [Open in vscode](vscode://file:///C:/Users/nikhilsharma03/Code/code-with-quarkus)
+  collapsed:: true
 	- ```bash
 	  [Open in vscode](vscode://file:///C:/Users/nikhilsharma03/Code/code-with-quarkus)
 	  ```
-- #Learn How to add code in #logSeq
+- #Learn How to add code
+  collapsed:: true
 	- to add a quote use backtick `single line code`
 	  ```
 	  use tripple backtick for multiline

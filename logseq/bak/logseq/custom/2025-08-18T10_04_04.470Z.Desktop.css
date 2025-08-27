@@ -1,6 +1,0 @@
-/* Highlight parent blocks with sub-blocks */
-.block-content.has-child {
-    background-color: rgba(255, 230, 150, 0.3); /* light yellow */
-    border-left: 3px solid #f4b400; /* orange border */
-    padding-left: 6px;
-}

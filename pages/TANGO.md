@@ -1,5 +1,4 @@
 ## Functional Overview
-collapsed:: true
 	- TANGO is the backend system for managing the Lufthansa’s operational flight data within the time range of -9/+9
 	- Manages the flights ground and movement operations.
 	- Real time data distribution to other airline users and systems

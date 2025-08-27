@@ -15,7 +15,8 @@ tags::  #database #Index
   | \password    | Change user password                      |
   
   ```
-- | Shortcut     | Description                               |
+- collapsed:: true
+  | Shortcut     | Description                               |
   |--------------|-------------------------------------------|
   |  \q           | Quit psql                                 |
   |  \c dbname    | Connect to a database                     |

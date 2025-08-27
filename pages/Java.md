@@ -13,6 +13,7 @@ icon:: 🍵
 -
 - ---
 - ## Java for small Coding Task
+  collapsed:: true
 	- Slides : https://horstmann.com/presentations/2025/javaone/#(1)
 	- Course : {{video https://www.youtube.com/watch?v=04wFgshWMdA}}
 		- ```java

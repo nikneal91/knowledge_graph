@@ -1,0 +1,18 @@
+/* Highlight parent blocks that have children */
+.ls-block:has(.block-children) > .block-content {
+    background-color: rgba(255, 230, 150, 0.3); /* Light yellow background */
+    border-left: 4px solid #f4b400; /* Orange border */
+    padding-left: 8px;
+}
+
+h1, h2, h3, h4 {
+	color: #3f74bf
+}
+
+.block-children-container > .block-main-container > .block-control {
+    color: red !important;
+}
+/* Change the border color of bullets with children */
+.ls-block .bullet-container:has(.bullet-children) .bullet {
+  border-color: red !important;
+}

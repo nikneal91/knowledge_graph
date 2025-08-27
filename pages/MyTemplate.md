@@ -30,6 +30,7 @@ alias:: template
   template:: project
 -
 - TODO Task description
+  
   priority:: B
   status:: next-action
   scheduled:: <% today %>
