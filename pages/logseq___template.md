@@ -1,4 +1,5 @@
 type:: template
+icon:: 🕍
 tags:: logseq
 created:: [[Aug 28th, 2025]]
 
@@ -20,6 +21,7 @@ created:: [[Aug 28th, 2025]]
 -
 - title:: <% current page %>
   type:: page
+  icon:: 📄
   status:: live
   priority:: A
   tags:: work, project
@@ -29,6 +31,7 @@ created:: [[Aug 28th, 2025]]
 -
 - title:: <% current page %>
   type:: book
+  icon:: 📗
   status:: reading
   priority:: B
   tags:: books
@@ -40,6 +43,7 @@ created:: [[Aug 28th, 2025]]
   
   priority:: B
   status:: backlog
+  icon:: ✅
   scheduled:: <% today %>
   deadline:: <% tomorrow %>
   refs:: [[Project Name]]

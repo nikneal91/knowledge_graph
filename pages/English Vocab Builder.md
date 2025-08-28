@@ -1,5 +1,6 @@
 title:: English Vocab Builder
 type:: project
+icon:: 🆎
 status:: in-progress
 priority:: A
 tags:: english

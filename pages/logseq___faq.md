@@ -20,6 +20,7 @@ type:: flashcards
   collapsed:: true
 	- ` [Open My Folder](file:///C:/Users/)`
 - #card How to open files directly in vscode [Open in vscode]
+  collapsed:: true
 	- ```bash
 	  [Open in vscode](vscode://file:///C:/Users/nikhilsharma03/Code/code-with-quarkus)
 	  ```
