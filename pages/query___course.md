@@ -1,2 +1,3 @@
-- {{query (property :course)}}
+- {{query}}
   query-table:: true
+-

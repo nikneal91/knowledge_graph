@@ -1,17 +1,15 @@
 alias:: #ai
-tags:: #ai #ml #Index
+tags:: #ai #ml 
+refs:: [[Index]]
 
 - Roadmap for AI Learning
-  collapsed:: true
 	- timing : 8 months
 	- free resources
 - Data Science ==Traditional approach==
-  collapsed:: true
 	- DS , #ml , CV (computer visions) , NLP
-	- GenAi -LLM , Multi Modal , Frameworks ( ChatGPT , Gemini , OpenAI)
 	- Agentic AI - MCP ( Model Context Protocol)
-	  collapsed:: true
 		- Developing agents , RAG applications
+	- GenAi -LLM , Multi Modal , Frameworks ( ChatGPT , Gemini , OpenAI)
 	-
 - Modern Approach
   collapsed:: true

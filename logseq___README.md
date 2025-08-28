@@ -1,6 +1,10 @@
-# 🧠 Logseq Knowledge Graph
+tags:: logSeq
+type:: page
 
-This repository contains my **Logseq-based personal knowledge graph** — a collection of interconnected notes, ideas, research, and structured knowledge captured using the [Logseq](https://logseq.com/) tool.
+-
+- # 🧠 Logseq Knowledge Graph
+  
+  This repository contains my **Logseq-based personal knowledge graph** — a collection of interconnected notes, ideas, research, and structured knowledge captured using the [Logseq](https://logseq.com/) tool.
 - ## 📘 About Logseq
   
   [Logseq](https://logseq.com/) is a privacy-first, open-source knowledge management system. It uses plain Markdown and Org-mode files, supporting:

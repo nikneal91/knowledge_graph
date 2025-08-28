@@ -1,3 +1,9 @@
+alias:: k8
+refs:: [[Spaced Repetition]] 
+type:: flashcards
+icon:: 🕸️
+tags:: Kubernetes k8s
+
 - #card how to get pods ?
   card-last-interval:: 4
   card-repeats:: 1

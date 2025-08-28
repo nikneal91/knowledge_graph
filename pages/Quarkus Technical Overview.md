@@ -1,5 +1,5 @@
-type:: #course
-tags:: #quarkus
+type:: course
+tags:: quarkus
 
 - ## Need for Quarkus
 	- Java and J2EE application becomes huge and when the containers and k8s comes into the picture the startup time of java application caused developers to shy away from java and use node.js or any other faster framework

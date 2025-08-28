@@ -1,7 +1,8 @@
-reference::  #java #[[Interview Preparation]]
+refs::  #java #[[Interview Preparation]]
 alias:: LC
+type:: page
 icon:: 💻
-tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
+tags:: Interview Preparation, Data Structure and Algorithms
 
 - ## Cheatsheets
 	- This article will be a collection of cheat sheets that you can use as you solve problems and prepare for interviews. You will find:
@@ -16,6 +17,7 @@ tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 - ## **Arrays (dynamic array/list)**
 	- Given `n = arr.length`,
 	- Add or remove element at the end: O(1) [amortized](https://stackoverflow.com/questions/33044883/why-is-the-time-complexity-of-pythons-list-append-method-o1)
+	  collapsed:: true
 		- > It's amortized O(1), not O(1).
 		  Let's say the list reserved size is 8 elements and it doubles in size when space runs out. You want to push 50 elements.
 		  The first 8 elements push in O(1). The nineth triggers reallocation and 8 copies, followed by an O(1) push. The next 7 push in O(1). The seventeenth triggers reallocation and 16 copies, followed by an O(1) push. The next 15 push in O(1). The thirty-third triggers reallocation and 32 copies, followed by an O(1) push. The next 31 push in O(1). This continues as the size of list is doubled again at pushing the 65th, 129th, 257th element, etc..
@@ -130,17 +132,18 @@ tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 	  
 	  ---
 - ## Input sizes vs time complexity
+  collapsed:: true
   
   The constraints of a problem can be considered as hints because they indicate an upper bound on what your solution's time complexity should be. Being able to figure out the expected time complexity of a solution given the input size is a valuable skill to have. In all LeetCode problems and most online assessments (OA), you will be given the problem's constraints. Unfortunately, you will usually not be explicitly told the constraints of a problem in an interview, but it's still good for practicing on LeetCode and completing OAs. Still, in an interview, it usually doesn't hurt to ask about the expected input sizes.
-  
-  ---
 	- **n <= 10** #card
+	  collapsed:: true
 		- The expected time complexity likely has a `factorial` or an exponential with a base larger than `2` - O(n^2⋅n!)*O*(*n*2⋅*n*!) or O(4n)*O*(4*n*) for example.
 		  
 		  You should think about `backtracking or any brute-force`-esque recursive algorithm. `n <= 10` is extremely small and usually **any** algorithm that correctly finds the answer will be fast enough.
 		  
 		  ---
 	- **10 < n <= 20** #card
+	  collapsed:: true
 		- The expected time complexity likely involves O(2n)*O*(2*n*). Any higher base or a factorial will be too slow (320320 = ~3.5 billion, and 20!20! is much larger). A 2n2*n* usually implies that given a collection of elements, you are considering all subsets/subsequences - for each element, there are two choices: take it or don't take it.
 		  
 		  Again, this bound is very small, so most algorithms that are correct will probably be fast enough. Consider `backtracking and recursion`.
@@ -172,8 +175,6 @@ tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 		- A combination of any of the above
 		  
 		  If you have an O(n)*O*(*n*) algorithm, the constant factor can be reasonably large (around 40). One common theme for string problems involves looping over the characters of the alphabet at each iteration resulting in a time complexity of O(26n)*O*(26*n*).
-		  
-		  ---
 	- **100,000 < n < 1,000,000** #card
 	  card-last-interval:: 4
 	  card-repeats:: 1
@@ -181,15 +182,15 @@ tags:: [[Interview Preparation]] [[Data Structure and Algorithms]]
 	  card-next-schedule:: 2025-08-26T05:57:35.376Z
 	  card-last-reviewed:: 2025-08-22T05:57:35.382Z
 	  card-last-score:: 3
+	  collapsed:: true
 		- n<=106*n*<=106 is a rare constraint, and will likely require a time complexity of O(n)*O*(*n*). In this range, O(n⋅log⁡n)*O*(*n*⋅log*n*) is usually safe as long as it has a small constant factor. You will very likely need to incorporate a hash map in some way.
+	- **1,000,000 < n** #card
+	  collapsed:: true
+		- With huge inputs, typically in the range of 109109 or more, the most common acceptable time complexity will be logarithmic O(log⁡n)*O*(log*n*) or constant O(1)*O*(1). In these problems, you must either significantly reduce your search space at each iteration (usually binary search) or use clever tricks to find information in constant time (like with math or a clever use of hash maps).
+		  
+		  > Other time complexities are possible like O(n)*O*(*n*​), but this is very rare and will usually only be seen in very advanced problems.
 		  
 		  ---
-- **1,000,000 < n** #card
-	- With huge inputs, typically in the range of 109109 or more, the most common acceptable time complexity will be logarithmic O(log⁡n)*O*(log*n*) or constant O(1)*O*(1). In these problems, you must either significantly reduce your search space at each iteration (usually binary search) or use clever tricks to find information in constant time (like with math or a clever use of hash maps).
-	  
-	  > Other time complexities are possible like O(n)*O*(*n*​), but this is very rare and will usually only be seen in very advanced problems.
-	  
-	  ---
 - ### Sorting algorithms
   
   All major programming languages have a built-in method for sorting. It is usually correct to assume and say sorting costs O(n⋅log⁡n)*O*(*n*⋅log*n*), where n*n* is the number of elements being sorted. For completeness, here is a chart that lists many common sorting algorithms and their completeness. The algorithm implemented by a programming language varies; for example, Python uses Timsort but in C++, the specific algorithm is not mandated and varies.

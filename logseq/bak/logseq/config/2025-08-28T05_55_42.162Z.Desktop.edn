@@ -299,7 +299,7 @@
  ;;  :charge-range    600}   ; Default value: 600
 
  ;; Favorites to list on the left sidebar
- :favorites ["english vocab builder" "Spaced Repetition" "English Vocab Builder" "Index" "logSeq" "query" "LeetCode CheatSheet"]
+ :favorites ["Spaced Repetition" "English Vocab Builder" "Index" "logSeq" "query" "LeetCode CheatSheet"]
 
  ;; Set flashcards interval.
  ;; Expected value:

@@ -1,5 +1,6 @@
 alias:: DSA
-tags:: [[Interview Preparation]]
+type:: page
+tags:: Interview Preparation
 
 - ### Data Structure and Algorithm Notes
 - [[Stack]]

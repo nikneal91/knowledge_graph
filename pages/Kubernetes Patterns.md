@@ -1,3 +1,10 @@
+title:: Kubernetes Patterns
+type:: book
+status:: in-progress
+priority:: A
+tags:: [[Kubernetes]]
+
+-
 - ![Kubernetes-patterns-2e-Red-Hat-Developer-ebook.pdf](../assets/Kubernetes-patterns-2e-Red-Hat-Developer-ebook_1754633516106_0.pdf)
 	- website:: https://k8spatterns.com/
 	  tags::  #Kubernetes #Book 

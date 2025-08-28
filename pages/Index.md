@@ -1,4 +1,5 @@
 alias:: root
+tags:: #Favorites 
 icon:: 📒
 
 -
