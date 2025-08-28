@@ -6,6 +6,6 @@ description:: main page for all the queries
 - [[query/course]]
 - [[query/TODO]]
 -
--
+- {{query (page-property :type "book")}}
 - query-table:: true
 -

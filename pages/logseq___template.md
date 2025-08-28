@@ -27,6 +27,15 @@ created:: [[Aug 28th, 2025]]
   created-time:: <% time %>
   template:: logseq/page
 -
+- title:: <% current page %>
+  type:: book
+  status:: reading
+  priority:: B
+  tags:: books
+  created:: <% today %>
+  created-time:: <% time %>
+  template:: logseq/book
+-
 - TODO Task description
   
   priority:: B
