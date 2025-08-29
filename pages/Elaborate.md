@@ -27,6 +27,12 @@ icon:: 🔤
 		- **Synonym:** Define
 		- **Sentence:** The report delineates the main points clearly.
 	- #card Expound
+	  card-last-interval:: 4
+	  card-repeats:: 1
+	  card-ease-factor:: 2.6
+	  card-next-schedule:: 2025-09-02T08:01:41.046Z
+	  card-last-reviewed:: 2025-08-29T08:01:41.047Z
+	  card-last-score:: 5
 		- **Definition:** To explain systematically and in detail.
 		- **Synonym:** Elaborate
 		- **Sentence:** The teacher expounded on the scientific concept during the lecture

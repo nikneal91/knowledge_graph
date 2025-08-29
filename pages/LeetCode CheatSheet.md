@@ -150,6 +150,12 @@ tags:: Interview Preparation, Data Structure and Algorithms
 		  
 		  ---
 		- **20 < n <= 100** #card
+		  card-last-interval:: 4
+		  card-repeats:: 1
+		  card-ease-factor:: 2.6
+		  card-next-schedule:: 2025-09-02T08:01:31.096Z
+		  card-last-reviewed:: 2025-08-29T08:01:31.096Z
+		  card-last-score:: 5
 			- At this point, exponentials will be too slow. The upper bound will likely involve O(n3)*O*(*n*3).
 			  
 			  Problems marked as "easy" on LeetCode usually have this bound, which can be deceiving. There may be solutions that run in O(n)*O*(*n*), but the small bound allows brute force solutions to pass (finding the linear time solution might not be considered as "easy").

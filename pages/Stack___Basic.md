@@ -16,7 +16,8 @@ tags:: #coding
   card-next-schedule:: 2025-08-22T09:28:52.827Z
   card-last-reviewed:: 2025-08-18T09:28:52.829Z
   card-last-score:: 3
-	- ```
+  collapsed:: true
+	- ```java
 	  class MyStack {
 	    private int[] arr;
 	    private int top;

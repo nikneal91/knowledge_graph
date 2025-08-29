@@ -1,7 +1,7 @@
 - **Contains Duplicate** -
 	- ek set le liya , agar value pehle se hai to true , nhi hai to add kr do
 - **Valid Anagram** -
-	- agar string ke character ka count same hai toh true , ek hashmap le lo , ek ke traversal se build kr lo , dusre se check kr lo ,agar differ krta hai to false
+	- agar string ke ==character== ka count same hai toh true , ek hashmap le lo , ek ke traversal se build kr lo , dusre se check kr lo ,agar differ krta hai to false
 - **Two Sum** - check in hashmap for  target-nums[i] , if not just add
 - **Group Anagram** -  use count array int[26] , now this String of this count Array will be used as a key in hashmap to put values , in the end just return values into a ArrayList
 - **Top K frequent Elements** - Either use Min Heap (  cnt(val - val ) sorted by cnt a[0]-b[0] ( ascending order) only keep k element so`if heap.size() > k`  , poll out , in the end return result with heap.poll()[1] ( return value only not cnt) ,
